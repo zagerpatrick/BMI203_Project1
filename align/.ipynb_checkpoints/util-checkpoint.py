@@ -3,7 +3,7 @@ import numpy as np
 
 def argmaxdup(a):
     '''
-    Returns the indices of the maximum values, returing multiple indices if 
+    Returns the indices of the maximum values, returing multiple indices if
     there are duplicate max values.
 
     Parameters
@@ -51,7 +51,7 @@ def fa2str(file):
             if n == 0:
                 pass
             else:
-                amino += line[:-1]
+                amino += line[:-1].upper()
     return amino
 
 
