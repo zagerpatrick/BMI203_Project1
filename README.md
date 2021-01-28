@@ -1,7 +1,9 @@
 # Project 1 - Sequence Alignment
-## Due 01/27/2021
-
 ![BuildStatus](https://github.com/ucsf-bmi-203-2021/HW1/workflows/HW1/badge.svg?event=push)
+
+Code should be run from the top level of the directory, see Jupyter notebook and function docstrings for examples of usage.
+
+# API Documentation
 
 <a name="notebook_util"></a>
 # notebook\_util
@@ -166,6 +168,7 @@ TGTT-ACGG
 GGTTGACTA
 <a name="align.algs.SmithWaterman"></a>
 ## SmithWaterman Objects
+
 ```python
 class SmithWaterman(PairwiseAligner)
 ```
